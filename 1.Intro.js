@@ -26,3 +26,24 @@ console.log(typeof d)  //null is treated as an object in javascript
 let eql1 = null
 let eql2 = undefined
 console.log(eql1==eql2)  //will give true since both repesent nothing
+
+
+
+//type conversion
+
+let n = "10"
+
+let sum =n+10
+console.log(sum)
+sum =parseInt(n)+10
+console.log(sum)
+
+n="90.99"
+console.log(typeof parseFloat(n))
+
+let num=1000
+
+console.log(typeof num)
+console.log(typeof num.toString())
+
+
