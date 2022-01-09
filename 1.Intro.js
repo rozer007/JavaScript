@@ -47,3 +47,33 @@ console.log(typeof num)
 console.log(typeof num.toString())
 
 
+
+
+// == and ===
+
+let eq=1
+let eq1= "1"
+
+console.log(eq==eq1)
+console.log(eq===eq1)
+
+eq=null
+eq1=undefined
+
+console.log(eq==eq1)
+console.log(eq===eq1)
+
+//!= and !==
+console.log(eq!=eq1)
+console.log(eq!==eq1)
+
+
+//NaN  --> Not A Number
+
+let st="andnd"
+
+console.log(parseInt(st))
+console.log(parseInt(st)==NaN)
+
+
+console.log(isNaN(parseInt(st)) )
