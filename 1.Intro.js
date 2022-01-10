@@ -77,3 +77,13 @@ console.log(parseInt(st)==NaN)
 
 
 console.log(isNaN(parseInt(st)) )
+
+//string template literal
+
+st="hello"
+let st1="nono"
+
+console.log(st+" is "+st1)
+
+console.log(`${st} is ${st1}`)
+console.log(`${1+2} is ${3}`)
