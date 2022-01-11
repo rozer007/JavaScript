@@ -58,3 +58,16 @@ link.addEventListener('click',e=>{
 window.addEventListener('resize',()=> {
     console.log("resize")
 })
+
+//this in function and arrow function
+
+console.log(this)
+
+but.addEventListener('click',()=>{
+    console.log("Arrow This")
+    console.log(this) // will give the window and same as this that is defined the function
+})
+but.addEventListener('click',function(){
+    console.log("Arrow This")
+    console.log(this) // wi ll give the button object
+})
